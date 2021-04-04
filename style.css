@@ -5,6 +5,8 @@
     body{
         background: url(bg.jpg) no-repeat center center fixed;
         background-size: cover; 
+        opacity: 0.8;
+        z-index: -1;
         
     }
     .container{ 

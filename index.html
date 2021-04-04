@@ -9,17 +9,26 @@
     <title>Prabhat Login Page</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container user-div">
         <h1>Log In</h1>
         <div class="box">
             <i class="fa fa-envelope"></i>
-            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            <input type="email" name="email" id="email1" placeholder="Enter Your Email">
         </div>
         <div class="box">
             <i class="fa fa-key"></i>
-            <input type="password" name="password" id="password" placeholder="Enter Your Password">
+            <input type="password" name="password" id="password1" placeholder="Enter Your Password">
         </div>
-        <button class="btn">Sign In</button>
+        <button class="btn" onclick="signup()">Sign Up</button>
+        <button class="btn" onclick="login()">Sign In</button>
+        <button class="btn" onclick="signout()">Sign Out</button>
+       
     </div>
+   
 </body>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+
+
+<script src="./index.js"></script>
 </html>
